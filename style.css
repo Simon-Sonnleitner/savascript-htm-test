@@ -1,0 +1,52 @@
+
+body
+{
+    background-color: bisque;
+}
+h1
+{
+    color: red;
+    text-align: center;
+
+}
+p1
+{
+    color:black;
+
+}
+p2
+{
+    color: black;
+}
+a1
+{
+    color:black;
+}
+a2
+{
+    color: black;
+}
+.button
+{
+    background-color: blue;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1
+{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+}
+.button1:hover
+{
+    background-color: blue;
+    color: white;
+}
