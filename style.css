@@ -35,7 +35,7 @@ a2
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 12px;
+    border-radius: 20px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -50,11 +50,62 @@ a2
     background-color: black;
     color: white;
 }
+.button2
+{
+    background-color: white;
+    color: black;
+    border: 2px solid yellow;
+}
+.button2:hover
+{
+    background-color: yellow;
+    color: black;
+}
+.button3
+{
+    background-color: white;
+    color: black;
+    border: 2px solid aqua;
+}
+.button3:hover
+{
+    background-color: aqua;
+    color: black;
+}
+.button4
+{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+}
+.button4:hover
+{
+    background-color: green;
+    color: black;
+}
+.button5
+{
+    background-color: white;
+    color: black;
+    border: 2px solid bisque;
+}
+.button5:hover
+{
+    background-color: bisque;
+    color: black;
+}
 table
 {
     width: 100%;
 }
-table, th, td
+th, td
 {
+    background-color: whitesmoke;
     border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+th
+{
+    background-color:aquamarine;
 }

@@ -3,7 +3,6 @@
     <title>Eine Website Über mich</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <h1>Eine Website Über mich</h1>
@@ -14,17 +13,19 @@
     <br>
     <p2>
         I also have a <a1 href="https://github.com/Simon-Sonnleitner">GitHub </a1>
-        <img style="height: 1cm; width: 1cm; align-self: center;" src="GitHub.png" alt="GitHub.com">
+        <img style="height: 0.5cm; width: 0.5cm; align-self: center;" src="GitHub.png" alt="GitHub.com">
         
     </p2>
     <br>
-    <br>
     <a class="button button1"
-    target="_blank" href="https://github.com/Simon-Sonnleitner">GitHub</a>
+    target="_blank" href="https://github.com/Simon-Sonnleitner">
+    <img style="height: 1cm; width: 1cm; align-self: center;" src="GitHub.png" alt="GitHub.com">
+    </a>
+    
 
     <table>
         <tr>
-            <th>Hobbys</th>
+            <th style="width: 500px;">Hobbys</th>
             <th>Video Geames</th>
             <th>YouTube-Creators</th>
         </tr>
@@ -43,6 +44,19 @@
 
 
     </table>
+
+    <p3 class="button button2" onclick="document.getElementsByTagName('body').item(0).style.backgroundColor='yellow'">
+        Make Website yellow
+    </p3>
+    <p3 class="button button3" onclick="document.getElementsByTagName('body').item(0).style.backgroundColor='aqua'">
+        Make Website aqua
+    </p3>
+    <p3 class="button button4" onclick="document.getElementsByTagName('body').item(0).style.backgroundColor='green'">
+        Make Website green
+    </p3>
+    <p3 class="button button5" onclick="document.getElementsByTagName('body').item(0).style.backgroundColor='bisque'">
+        RESET
+    </p3>
 
 </body>
 
