@@ -105,14 +105,14 @@ a2
 }
 .button7
 {
-    border-radius: 4px;
     background-color: #f4511e;
-    border: none;
+    border-radius: 20px;
+    border-color: black;
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 200px;
+    width: 270px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
